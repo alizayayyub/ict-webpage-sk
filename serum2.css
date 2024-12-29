@@ -1,0 +1,233 @@
+/* Global Styles */
+body {
+  
+    margin: 0;
+    padding: 0;
+    background-color: #edede9;
+    color: #333;
+  }
+ 
+  header
+    {  position: fixed;
+      top:0%;
+      left: 0%;
+      background-color: rgb(241, 139, 139);
+      width:100%;
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 ;
+      
+  z-index: 1000;}
+  .searchbar
+  { margin:  10px 0;
+  margin-left:1000px;
+  display:flex;
+  align-items: center;}
+      .search-bar
+      {  margin-top: 10px;
+          border:1px solid gray;
+          height:30px;
+      border-radius:50px;
+      background-color: #edede9;}
+    .navbar
+  {  
+       margin-top: 0px;
+      position: absolute;
+      width:100%;
+       height:75px;
+  background-color:#e3d5ca;
+  color:#ffd3d7;
+  display: flex;
+  justify-content:space-between ;
+  }
+  .logo
+  {font-size: 30px;
+      font-weight: bold;
+      font-family:cursive;
+      text-decoration: none;
+      color:coral;
+      letter-spacing: 2px;
+      text-transform: uppercase;}
+      a{
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none;
+      color:coral
+      }
+      li{
+      display:inline;
+      margin: 0 80px;}
+      .nav-links
+      {flex-direction: column;
+      margin-top:20px;}
+  
+  /* Product Section Styles */
+  .product-page {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-top: 8%;
+  }
+  
+  .product-container {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .product-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-details {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .product-details h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* How to Use Section */
+  .how-to-use {
+    margin-top: 30px;
+  }
+  
+  .how-to-use h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .how-to-use ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .how-to-use ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Ingredients Section */
+  .ingredients {
+    margin-top: 20px;
+  }
+  
+  .ingredients h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ingredients ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  .ingredients ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Add to Cart Button */
+  .add-to-cart {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer Styles */
+ /* Footer Styling */
+ footer {
+    background-color:#e3d5ca ;
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+/* Contact Information Section */
+.contact-info h3, .social-media h3 {
+    color: #ffafcc;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: coral;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media ul li {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    font-size: 16px;
+    color:coral;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Social Media Link Hover Effects */
+.social-media a:hover {
+    color: #ffafcc;
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    background-color:  rgb(241, 139, 139) ;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+  

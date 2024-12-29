@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seraphine Niacinamide 10% + Zinc 1% Serum</title>
+    <link rel="stylesheet" href="project sk.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+      <div class="header"> 
+          <div class="searchbar">
+              <input type="text" class="search-bar" placeholder="Search products...">
+              <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+      
+  
+  <nav class="navbar">
+
+  <div class="logo">
+      <a href="#"> Seraphine</a>
+  </div>
+<ul class="nav-links">
+  <li> <a href="#">Home </a></li>
+  <li> <a href="#"> Categories</a></li>
+  <li> <a href="signin signup.html">Login </a></li>
+  <li> <a href="#"> About Us</a></li>
+</ul>
+</nav>
+</div>
+  </header>
+
+    <!-- Main Product Section -->
+    <main class="product-page">
+        <div class="product-container">
+            <!-- Product Image -->
+            <div class="product-image">
+                <img src="Perfectionist Serum.jpeg" alt="Seraphine Niacinamide 10% + Zinc 1% Serum">
+            </div>
+
+            <!-- Product Details -->
+            <div class="product-details">
+                <h2> Perfectionist Serum</h2>
+                <h2>Niacinamide 10% + Zinc 1% Serum</h2>
+                <p class="price">$450.80</p>
+                <p class="description">
+                    This serum helps to reduce the appearance of blemishes and visible pores. It also helps to balance the skin's sebum levels.
+                </p>
+
+                <!-- How to Use Section -->
+                <div class="how-to-use">
+                    <h3>How to Use</h3>
+                    <ul>
+                   <li>Apply a few drops to face in the morning and evening.Massage gently until fully absorbed.</li>
+                        
+                        
+                    </ul>
+                </div>
+
+                <!-- Ingredients Section -->
+                <div class="ingredients">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        <li>Niacinamide (Vitamin B3) 10% , Water (Aqua) , Glycerin</li>
+                        
+                        
+                    </ul>
+                </div>
+
+                <!-- Add to Cart Button -->
+                <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
+                <p id="cart-message" style="display:none; color: green; font-weight: bold;">Item has been added to your cart!</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+          <!-- Contact Information Section -->
+          <div class="contact-info">
+            <h3>Contact Us:</h3>
+            <p>Burj Khalifa, 113 floor, Dubai</p>
+            <p>Email: seraphinealizayroha@gmail.com</p>
+            <p>Phone: 03285566333 </p>
+          </div>
+  
+          <!-- Social Media Links Section -->
+          <div class="social-media">
+              <h3>Follow Us</h3>
+              <ul>
+                  <li><a href="https://www.facebook.com" target="_blank" class="facebook">Facebook</a></li>
+                  <li><a href="https://www.instagram.com" target="_blank" class="instagram">Instagram</a></li>
+                  <li><a href="https://www.twitter.com" target="_blank" class="twitter">Twitter</a></li>
+              </ul>
+          </div>
+      </div>
+
+    
+      <!-- Footer Bottom Section -->
+      <div class="footer-bottom">
+          <p>&copy; 2024 Seraphine. All rights reserved.</p>
+      </div>
+  </footer>
+    <!-- JavaScript Functionality -->
+    <script>
+        function addToCart() {
+            // Display a message that item has been added to the cart
+            const message = document.getElementById('cart-message');
+            message.style.display = 'block'; // Show the message
+
+            // Hide the message after 3 seconds
+            setTimeout(function() {
+                message.style.display = 'none'; // Hide the message after 3 seconds
+            }, 3000);
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header
+{  position: fixed;
+  top:0%;
+  left: 0%;
+  background-color: rgb(241, 139, 139);
+
+  width:100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 ;
+  
+  
+z-index: 1000;}
+.searchbar
+{ margin:  10px 0;
+margin-left:1000px;
+display:flex;
+align-items: center;}
+  .search-bar
+  {  margin-top: 10px;
+      border:1px solid gray;
+      height:30px;
+  border-radius:50px;
+  }
+.navbar
+{  font-family: cursive;
+   margin-top: 0px;
+  position: absolute;
+  width:100%;
+   height:75px;
+background-color: #e3d5ca;
+color:#ffd3d7;
+display: flex;
+justify-content:space-between ;
+text-decoration: none;
+
+}
+.logo
+{font-size: 30px;
+  font-weight: bold;
+  
+  color:coral;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+font-family: cursive;}
+  a{
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  color:coral
+  }
+  li{
+  display:inline;
+  margin: 0 80px;
+  
+text-decoration: none;
+}
+  .nav-links
+  {flex-direction: column;
+  margin-top:20px;
+  font-size: 2 rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Serum Page Styles */
+.serum-page {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2.5rem;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.serum-container {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+    height:400px;
+}
+
+.serum-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.serum-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.serum-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.serum-description {
+    padding: 20px;
+}
+
+.serum-description h2 {
+    font-size: 1.4rem;
+    color: #111;
+    margin-bottom: 10px;
+}
+
+.serum-description p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+    
+footer {
+    background-color:#e3d5ca ;
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  
+  /* Contact Information Section */
+  .contact-info h3, .social-media h3 {
+    color: #ffafcc;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: coral;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .social-media ul li {
+    margin-bottom: 10px;
+  }
+  
+  .social-media a {
+    font-size: 16px;
+    color:coral;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  /* Social Media Link Hover Effects */
+  .social-media a:hover {
+    color: #ffafcc;
+  }
+  
+  /* Footer Bottom Section */
+  .footer-bottom {
+    background-color:  rgb(241, 139, 139) ;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
